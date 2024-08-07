@@ -1,0 +1,32 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.flag-cell {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flag {
+    width: 30px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.country-name {
+    display: inline-block;
+    vertical-align: middle;
+}
+.medal {
+    width: 30px;
+    height: 30px;
+}
