@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+    console.log("JavaScript carregado com sucesso!");  // Adiciona um log para verificar o carregamento do JS
+
     const medalhas = [
         { pais: 'Brasil', bandeira: 'https://flagcdn.com/w320/br.png', ouro: 7, prata: 6, bronze: 8 },
         { pais: 'Estados Unidos', bandeira: 'https://flagcdn.com/w320/us.png', ouro: 39, prata: 41, bronze: 33 },
